@@ -64,8 +64,8 @@ li {
 
     box-shadow: 2px 2px 4px black;
     overflow: hidden;
-    margin-top: 20px;
-    width: 300px;
+    margin: 10px 0;
+    width: 267px;
     height: 200px;
 }
 
@@ -73,12 +73,12 @@ li {
     display: flex;
     transition: transform 0.5s ease-in-out;
     transform: translateX(0);
-    width: 300px;
+    width: 267px;
     height: 200px;
 }
 
 .img img {
-    max-width: 300px;
+    max-width: 267px;
     max-height: 200px;
     object-fit: contain;
     width: auto;
