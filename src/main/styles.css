@@ -17,7 +17,7 @@ body {
     border-radius: 20px 20px 0 0;
 }
 
-header {
+.header {
     margin: auto;
     padding: 0 20px;
     border-radius: 20px 20px 0 0;
@@ -29,8 +29,30 @@ header {
     align-items: center;
 }
 
-li {
+nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+}
+
+nav > ul > li {
+    color: #dfdfe2;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+}
+
+  li {
     list-style-type: none;
+}
+
+  li > a {
+    color: inherit;
+    text-decoration: none;
 }
 
 .destaque {
