@@ -119,6 +119,11 @@ nav > ul > li {
 .subtitulo {
     text-align: center;
     margin-top: 10px;
+}
+
+.destaques-description {
+    text-align: center;
+    font-size: 12px;
     margin-bottom: 30px;
 }
 
@@ -145,6 +150,74 @@ nav > ul > li {
     margin-bottom: 20px;
 }
 
+.dropdown {
+    display: none;
+    margin-bottom: 10px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.dropdown h3 {
+    margin: 0 5px 5px 5px;
+}
+
+.dropdown a {
+    text-decoration: none;
+}
+
+.subponteiros:hover .dropdown{
+    display: block;
+}
+
 footer {
     text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 70dvw;
+        margin: 5px 0 10px 10px;
+    }
+    
+    .header {
+        margin: auto;
+        padding: 0 20px;
+        border-radius: 20px 20px 0 0;
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .header h1 {
+        font-size: 20px;
+    }
+
+    .destaque {
+        flex-direction: column-reverse;
+    }
+ 
+    .resumo {
+        width: fit-content;
+    }
+
+    .carrossel {
+        width: 230px;
+        height: 170px;
+    }
+
+    .container-photos {
+        max-width: 230px;
+        max-height: 200px;
+    }
+
+    img {
+        max-width: 230px;
+        max-height: 200px;
+    }
+
+    .ponteiros {
+        flex-direction: column;
+    }
 }
