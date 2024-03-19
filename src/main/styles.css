@@ -168,6 +168,10 @@ nav > ul > li {
     display: block;
 }
 
+.subponteiros:not(:hover) .dropdown {
+    display: none;
+}
+
 footer {
     text-align: center;
 }
